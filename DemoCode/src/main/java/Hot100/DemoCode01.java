@@ -9,8 +9,8 @@ public class DemoCode01 {
         Map<Integer, Integer> container = new HashMap<>();
         int length = nums.length;
 
-        for(int i = 0; i < length; i++){
-            if(container.containsKey(target - nums[i])){
+        for (int i = 0; i < length; i++) {
+            if (container.containsKey(target - nums[i])) {
                 return new int[]{container.get(target - nums[i]), i};
             }
             container.put(nums[i], i);

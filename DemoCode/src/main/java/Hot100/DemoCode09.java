@@ -32,19 +32,6 @@ public class DemoCode09 {
         return ans;
     }
 
-    public List<Integer> findAnagrams2(String s, String p) {
-        List<Integer> ans = new ArrayList<>();
-
-        int[]  temp = new int[26];
-        for (char c : p.toCharArray()) {
-            temp[c - 'a']++;
-        }
-
-
-
-        return ans;
-    }
-
     public static void main(String[] args) {
         // "cbaebabacd"
         String s = "cbaebabacd";
